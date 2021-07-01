@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+Flower Prediction
+{% endblock %}
+{% block content %}
+<body class="text-center">
+   <br>
+   <div class="container">
+       <h1> {{ data }} </h1>
+       <br>
+       <img src="static/{{ data }}.jpg" alt="Setosa">
+   </div>
+   <br><br>
+</body>
+{% endblock %}
